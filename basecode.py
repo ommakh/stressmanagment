@@ -4,7 +4,6 @@ from langchain.vectorstores import FAISS
 from langchain.document_loaders.csv_loader import CSVLoader
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
-from main2 import predictor
 
 api_key = 'AIzaSyAnfZhaN9FqoWy-Wzr7fNiBl691ytjLbV0'
 print("we are good...")
